@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz aniversário</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:
+linear-gradient(to bottom,#020617,#081028,#000814);
+min-height:100vh;
+overflow-x:hidden;
+color:white;
+display:flex;
+justify-content:center;
+padding:40px 20px;
+position:relative;
+}
+
+.stars{
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+overflow:hidden;
+z-index:0;
+}
+
+.star{
+position:absolute;
+background:white;
+border-radius:50%;
+opacity:.7;
+animation:blink 3s infinite;
+}
+
+@keyframes blink{
+0%,100%{opacity:.2;}
+50%{opacity:1;}
+}
+
+.container{
+position:relative;
+z-index:2;
+width:100%;
+max-width:750px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:30px;
+padding:45px 30px;
+box-shadow:0 0 60px rgba(0,0,0,.5);
+animation:fade 1.5s ease;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.moon{
+width:150px;
+height:150px;
+margin:0 auto 35px;
+border-radius:50%;
+background:
+radial-gradient(circle at top,#dbeafe,#60a5fa);
+box-shadow:
+0 0 80px rgba(96,165,250,.8);
+animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{
+transform:translateY(0px);
+}
+50%{
+transform:translateY(-10px);
+}
+}
+
+.small{
+text-align:center;
+letter-spacing:5px;
+font-size:12px;
+color:#b8d4ff;
+margin-bottom:20px;
+text-transform:uppercase;
+}
+
+h1{
+text-align:center;
+font-size:52px;
+margin-bottom:40px;
+}
+
+p{
+color:#d4d4d8;
+line-height:2;
+font-size:18px;
+margin-bottom:28px;
+text-align:center;
+}
+
+.line{
+height:1px;
+background:
+linear-gradient(to right,
+transparent,
+rgba(96,165,250,.6),
+transparent);
+margin:40px 0;
+}
+
+.quote{
+background:rgba(59,130,246,.1);
+border:1px solid rgba(96,165,250,.2);
+padding:30px;
+border-radius:24px;
+text-align:center;
+font-style:italic;
+color:#dbeafe;
+font-size:20px;
+line-height:1.8;
+margin-top:30px;
+}
+
+.footer{
+margin-top:45px;
+text-align:center;
+color:#71717a;
+letter-spacing:4px;
+font-size:12px;
+text-transform:uppercase;
+}
+
+@media(max-width:700px){
+
+body{
+padding:20px 12px;
+}
+
+.container{
+padding:35px 22px;
+}
+
+h1{
+font-size:38px;
+}
+
+p{
+font-size:16px;
+line-height:1.9;
+}
+
+.quote{
+font-size:17px;
+padding:22px;
+}
+
+.moon{
+width:120px;
+height:120px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="container">
+
+<div class="moon"></div>
+
+<div class="small">
+feliz aniversário
+</div>
+
+<h1>Feliz aniversário, meu bem.</h1>
+
+<p>
+É estranho pensar que faz tão pouco tempo.
+</p>
+
+<p>
+Porque parece que nesse tempo a gente já passou por muita coisa.
+</p>
+
+<p>
+E mesmo assim, entre todas as confusões,
+conversas, momentos bons e ruins...
+</p>
+
+<p>
+eu continuei gostando de cada detalhe seu.
+</p>
+
+<div class="line"></div>
+
+<p>
+Do jeito que você fala.
+</p>
+
+<p>
+Do jeito que pensa.
+</p>
+
+<p>
+Das pequenas coisas que talvez nem perceba em si mesma.
+</p>
+
+<p>
+E eu acho isso raro.
+</p>
+
+<div class="line"></div>
+
+<p>
+Eu gosto de passar tempo com você.
+</p>
+
+<p>
+Mesmo nas conversas simples.
+</p>
+
+<p>
+Mesmo nos momentos meio caóticos.
+</p>
+
+<p>
+Porque você consegue deixar tudo mais interessante sem nem tentar.
+</p>
+
+<p>
+E sinceramente?
+</p>
+
+<p>
+acho bonito ver você aprendendo tanta coisa ainda.
+</p>
+
+<p>
+Ver você tentando entender o mundo do seu jeito.
+</p>
+
+<p>
+Mesmo quando as coisas ficam difíceis.
+</p>
+
+<p>
+Mesmo quando parece que nada faz sentido.
+</p>
+
+<p>
+Você continua sendo você.
+</p>
+
+<p>
+E talvez seja exatamente isso que me faz gostar tanto da tua presença.
+</p>
+
+<div class="quote">
+“Algumas pessoas aparecem do nada,
+bagunçam completamente a nossa rotina,
+e mesmo assim...
+a gente acaba agradecendo por elas terem aparecido.”
+</div>
+
+<div class="line"></div>
+
+<p>
+E independente de qualquer problema,
+</p>
+
+<p>
+eu espero de verdade que esse novo ciclo te faça bem.
+</p>
+
+<p>
+Que você continue crescendo,
+aprendendo,
+e descobrindo coisas bonitas sobre si mesma.
+</p>
+
+<p>
+Porque você merece viver coisas bonitas também.
+</p>
+
+<p>
+Feliz aniversário.
+</p>
+
+<div class="footer">
+feito com amor e carinho — u6xys
+</div>
+
+</div>
+
+<script>
+
+const stars = document.querySelector('.stars');
+
+for(let i=0;i<120;i++){
+
+const star = document.createElement('div');
+
+star.classList.add('star');
+
+const size = Math.random()*3;
+
+star.style.width = size + 'px';
+star.style.height = size + 'px';
+
+star.style.top = Math.random()*100 + '%';
+star.style.left = Math.random()*100 + '%';
+
+star.style.animationDuration =
+(Math.random()*3 + 2) + 's';
+
+stars.appendChild(star);
+
+}
+
+</script>
+
+</body>
+</html>
