@@ -24,6 +24,7 @@ display:flex;
 justify-content:center;
 padding:40px 20px;
 position:relative;
+animation:fadeIn 1.5s ease;
 }
 
 .stars{
@@ -205,6 +206,13 @@ border-radius:18px;
 box-shadow:0 0 30px rgba(0,0,0,0.5);
 display:block;
 margin:20px auto;
+transition:0.4s ease;
+cursor:pointer;
+}
+
+.video-section video:hover{
+transform:scale(1.03);
+box-shadow:0 0 40px rgba(120,170,255,0.4);
 }
 
 .video-text{
@@ -212,6 +220,18 @@ margin-top:20px;
 opacity:0.8;
 line-height:1.8;
 }
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
 </style>
 </head>
 
